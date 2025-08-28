@@ -1,5 +1,4 @@
 {
-  "name": "kevnben-estate",
   "version": 2,
   "builds": [
     {
@@ -15,12 +14,5 @@
       "use": "@vercel/static"
     }
   ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/$1"
-    }
-  ],
-  "outputDirectory": ".",
   "cleanUrls": true
 }
